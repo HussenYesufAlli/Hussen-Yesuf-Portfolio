@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #36b37e;
+  --secondary-color: #172b4d;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+  --tertiary-font: "Inter", sans-serif;
+  --skills-list-bg: #ebf0ee;
+  --skills-list-color: #3a4a42;
+  --p-text-color: #42526e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topBar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 92px;
+}
+
+/* My Logo */
+.logo {
+  padding-left: 10px;
+}
+
+/* Three dash-setting */
+.icon-Union {
+  padding-right: 10px;
+  color: blue;
+}
+
+/* The headline section bg-shapes */
+.content-section {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/shapes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* The headline section  */
+.main-Container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 718px;
+  margin-left: 20px;
+  padding-top: 90px;
+}
+
+/* h1 text/Primary Text/personal introduction */
+.headingTxt {
+  font-family: var(--tertiary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+/* praragraph/Primary Text/ personal description  */
+.text-2 {
+  padding: 10px 0;
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+/* LET’S CONNECT text */
+.lets-connect {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.lets-connect a {
+  text-decoration: none;
+}
+
+/* social media icons */
+.social-media-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.list {
+  border-radius: 0;
+  list-style: none;
+}
+
+.list a img {
+  height: 20px;
+  width: 20px;
+}
+
+@media (min-width: 375px) {
+  .content-section {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-section {
+    width: 100%;
+  }
+}
