@@ -19,7 +19,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--primary-font);
+  font-style: normal;
+  background: #e5e5e5;
+}
+
 .topBar-nav {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +47,7 @@
 
 /* The headline section bg-shapes */
 .content-section {
+  background-color: white;
   width: 100%;
   height: 100%;
   background-image: url(img/shapes.png);
@@ -59,8 +67,6 @@
 
 /* h1 text/Primary Text/personal introduction */
 .headingTxt {
-  font-family: var(--tertiary-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -70,8 +76,6 @@
 /* praragraph/Primary Text/ personal description  */
 .text-2 {
   padding: 10px 0;
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -80,8 +84,6 @@
 
 /* LET’S CONNECT text */
 .lets-connect {
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -104,21 +106,34 @@
   list-style: none;
 }
 
+.list a img {
+  height: 20px;
+  width: 20px;
+}
+
 /* work-section */
 
 .work-section {
+  background-color: #f7f7f9;
   width: 100%;
-  height: 2788px;
-  top: 718px;
+  padding-top: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .work-container {
   display: grid;
   grid-template-columns: auto;
-  padding: 16px, 6px;
   border-radius: 16px;
-  margin: 36px;
+  background: #ffffff;
   border: 1px solid #dfe1e6;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+  margin-bottom: 20px;
 }
 
 .cards {
@@ -126,7 +141,6 @@
   height: 100%;
   width: 100%;
   flex-direction: column;
-  padding-left: 24px;
 }
 
 .snapshot-portofolio img {
@@ -146,12 +160,11 @@
 }
 
 .project-title {
-  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #344563;
+  color: #172b4d;
   padding: 5px;
 }
 
@@ -164,8 +177,6 @@
 }
 
 .tframes h3 {
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -176,8 +187,6 @@
   display: flex;
   gap: 10px;
   list-style: none;
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
@@ -192,8 +201,6 @@
 }
 
 .project-text {
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -209,10 +216,8 @@
 }
 
 .tag-list li {
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
   color: #6070ff;
   background-color: rgb(235, 235, 255);
@@ -230,8 +235,6 @@
   padding: 12px;
   color: #396df2;
   background-color: #fff;
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -241,6 +244,7 @@
   background-color: #6070ff;
   color: white;
   transition: all ease 1s;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .blocks-button:active {
@@ -256,6 +260,9 @@
   padding-bottom: 150px;
   padding-top: 100px;
   background-image: url(img/about-img/about\ bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-right-radius: 80px 80px;
 }
 
 .about-Container {
@@ -269,13 +276,13 @@
 .skil-List {
   display: flex;
   flex-direction: column;
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   padding-top: 12px;
   list-style-type: none;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .nameList {
@@ -290,8 +297,6 @@
   flex-direction: column;
   gap: 12px;
   padding: 0 12px;
-  font-family: var(--primary-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
