@@ -106,18 +106,13 @@ body {
   list-style: none;
 }
 
-.list a img {
-  height: 20px;
-  width: 20px;
-}
-
 /* work-section */
 
 .work-section {
   background-color: #f7f7f9;
   width: 100%;
-  padding-top: 100px;
   padding: 30px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -128,7 +123,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   border-radius: 16px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   align-items: center;
   padding: 20px;
@@ -244,7 +239,7 @@ body {
   background-color: #6070ff;
   color: white;
   transition: all ease 1s;
-  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .blocks-button:active {
