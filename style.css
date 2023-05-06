@@ -452,17 +452,19 @@ textarea::placeholder {
   .headerlist {
     display: flex;
     gap: 8px;
-    list-style-type: none;
     padding-right: 100px;
-    font-family: var(--primary-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
     position: sticky;
     top: 0;
     height: 20px;
+    list-style-type: none;
+  }
+
+  .headerlist a {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
   }
 
   .headerlist a:hover {
@@ -504,7 +506,7 @@ textarea::placeholder {
 
   .work-section {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     border-radius: 16px;
     background-color: #f7f7f9;
     align-items: center;
@@ -523,7 +525,8 @@ textarea::placeholder {
     flex-direction: column;
     align-items: center;
     background: #fff;
-    border: 5px solid #dfe1e6;
+    border-radius: 24px;
+    border: solid 1px rgb(223, 225, 230);
     box-sizing: border-box;
     width: auto;
     margin-left: 25px;
@@ -547,6 +550,7 @@ textarea::placeholder {
   .blocks {
     width: 400px;
     gap: 10px;
+    padding-left: 20px;
   }
 
   .tframes {
