@@ -585,7 +585,6 @@ textarea::placeholder {
 
   .about-section {
     display: flex;
-    height: auto;
     gap: 10px;
     flex-direction: row;
     align-items: center;
@@ -624,7 +623,7 @@ textarea::placeholder {
   .skil-List {
     width: 90vw;
     margin: 0 auto;
-    margin-right: 40px;
+    margin-right: 150px;
   }
 
   .skil-List-List {
