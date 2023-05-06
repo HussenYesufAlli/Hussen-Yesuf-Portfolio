@@ -444,6 +444,7 @@ textarea::placeholder {
     top: 0;
     background-color: white;
   }
+
   .logo {
     padding-left: 100px;
   }
@@ -486,7 +487,6 @@ textarea::placeholder {
   }
 
   .headingTxt {
-    line-height: 52px;
     color: #091e42;
     font-weight: 700;
     font-size: 48px;
@@ -664,26 +664,12 @@ textarea::placeholder {
     align-items: center;
     width: 65%;
   }
-  .contact-form-container input {
-    width: 100%;
-    display: block;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    color: #172b4d;
-    box-sizing: border-box;
-    outline: none;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    padding: 15px 20px;
-    margin-top: 5px;
-  }
 
   .contact-form-container textarea {
     border: 0 solid #cfd8dc;
     border-radius: 0;
   }
+
   .contact-form-container input {
     border: 0 solid #cfd8dc;
     border-radius: 0;
