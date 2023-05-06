@@ -25,6 +25,10 @@ body {
   background: #e5e5e5;
 }
 
+main {
+  background-color: #f7f7f9;
+}
+
 .topBar-nav {
   background-color: white;
   display: flex;
@@ -511,12 +515,12 @@ textarea::placeholder {
     background-color: #f7f7f9;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding: 100px 5%;
     gap: 40px;
     margin-bottom: 50px;
     width: auto;
     height: auto;
-    padding-bottom: 150px;
+    padding-bottom: 30px;
   }
 
   .work-container {
@@ -529,28 +533,28 @@ textarea::placeholder {
     border: solid 1px rgb(223, 225, 230);
     box-sizing: border-box;
     width: auto;
-    margin-left: 25px;
-    margin-right: 20px;
+    height: 450px;
   }
 
   .cards {
-    width: auto;
+    width: 100%;
     flex-direction: row;
     gap: 25px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 25px;
-    margin-right: 20px;
+  }
+
+  .snapshot-portofolio {
+    width: 50%;
+    height: 100%;
   }
 
   .snapshot-portofolio img {
-    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .blocks {
-    width: 400px;
-    gap: 10px;
-    padding-left: 20px;
+    width: 50%;
+    gap: 20px;
   }
 
   .tframes {
@@ -571,9 +575,6 @@ textarea::placeholder {
 
   .reverse-block {
     flex-direction: row-reverse;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
   }
 
   .project-text {
@@ -589,33 +590,35 @@ textarea::placeholder {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding-bottom: 150px;
-    padding-top: 120px;
-    border-top-right-radius: 80px 80px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-top-right-radius: 130px;
+    background-color: white;
   }
 
   .aboutWrapper {
     padding-top: 10px;
-    width: 40%;
+    width: 0%;
   }
 
   .about-Container {
-    padding-left: 40px;
+    padding-left: 100px;
   }
 
   .about-Container .headingTxt {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    width: 400px;
+    width: 450px;
   }
 
   .about-Container .text-2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    width: 400px;
+    width: 500px;
   }
 
   .skil-List {
