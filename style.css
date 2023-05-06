@@ -155,7 +155,21 @@ body {
 
 .snapshot-portofolio img {
   padding: auto;
+  -webkit-transition: all 800ms ease;
+  -moz-transition: all 800 ease;
+  -o-transition: all 800ms ease;
+  -ms-transition: all 800ms ease;
+  transition: all 800ms ease;
 }
+
+.snapshot-portofolio img:hover {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: cale(0.9);
+}
+
 
 .blocks {
   display: flex;
