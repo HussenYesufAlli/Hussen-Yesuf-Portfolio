@@ -37,6 +37,15 @@ body {
 /* My Logo */
 .logo {
   padding-left: 10px;
+  animation: 3s linear 1s infinite running slidein;
+}
+
+.logo:hover {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: cale(0.9);
 }
 
 /* Three dash-setting */
