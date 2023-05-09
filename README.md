@@ -148,7 +148,7 @@ GitHub Pages
 
 - [ ] **[Contact form (pair programming)]**
 - [ ] **[Footer section]**
-- [ ] **[Desktop version]**
+- [ ] **[Dynamic feature]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
