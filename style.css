@@ -152,6 +152,7 @@ main {
   flex-direction: column;
   gap: 10px;
   width: 100%;
+  padding-left: 20px;
 }
 
 .txtWrapper {
