@@ -52,6 +52,50 @@ main {
   transform: cale(0.9);
 }
 
+.main-nav-mobile {
+  top: 0px;
+  width: 100%;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  height: 0px;
+  overflow: hidden;
+  transition: 400ms ease-in-out;
+}
+
+.open-nav-links {
+  height: 100vh;
+}
+
+.header-mobile {
+  padding: 20px;
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.main-nav-mobile {
+  color: white;
+}
+
+.main-nav-mobile ul {
+  padding: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main-nav-mobile li a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
 /* Three dash-setting */
 .icon-Union {
   padding-right: 10px;
@@ -152,6 +196,7 @@ main {
   flex-direction: column;
   gap: 10px;
   width: 100%;
+  padding-left: 20px;
 }
 
 .txtWrapper {
@@ -450,6 +495,10 @@ textarea::placeholder {
     position: sticky;
     top: 0;
     background-color: white;
+  }
+
+  .main-nav-mobile {
+    display: none;
   }
 
   .logo {
