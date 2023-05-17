@@ -53,13 +53,13 @@ main {
 }
 
 .main-nav-mobile {
-  top: 0px;
+  top: 0;
   width: 100%;
   background: #6070ff;
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
   position: fixed;
-  height: 0px;
+  height: 0;
   overflow: hidden;
   transition: 400ms ease-in-out;
 }
@@ -77,23 +77,12 @@ main {
   padding-right: 10px;
 }
 
-.main-nav-mobile {
-  color: white;
-}
-
 .main-nav-mobile ul {
   padding: 40px;
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
-
-.main-nav-mobile li a {
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
 }
 
 /* Three dash-setting */
@@ -153,6 +142,13 @@ main {
 
 .lets-connect a {
   text-decoration: none;
+}
+
+.main-nav-mobile li a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 /* social media icons */
