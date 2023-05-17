@@ -102,6 +102,10 @@ main {
   color: blue;
 }
 
+.btn-humburger {
+  border: white;
+}
+
 /* The headline section bg-shapes */
 .content-section {
   background-color: white;
