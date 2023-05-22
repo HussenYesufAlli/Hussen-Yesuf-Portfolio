@@ -139,6 +139,11 @@ GitHub Pages
 :bust_in_silhouette: **Hussen Yesuf**
 
 - GitHub: [@HussenYesufAlli](https://github.com/HussenYesufAlli)
+  👤 **Emmanuel Ntihinyuka**
+
+- GitHub: [@ntimanu](https://github.com/ntimanu)
+- Twitter:[@emmantihinyuka](https://twitter.com/emmantihinyuka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinyuka-emmanuel-511890104/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
