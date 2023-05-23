@@ -40,7 +40,7 @@ main {
 
 /* My Logo */
 .logo {
-  padding-left: 10px;
+  padding-left: 20px;
   animation: 3s linear 1s infinite running slidein;
 }
 
@@ -69,12 +69,12 @@ main {
 }
 
 .header-mobile {
-  padding: 20px;
+  padding: 40px;
   display: flex;
   width: 90%;
   align-items: center;
   justify-content: end;
-  padding-right: 10px;
+  padding-right: 0;
 }
 
 .main-nav-mobile ul {
@@ -87,7 +87,7 @@ main {
 
 /* Three dash-setting */
 .icon-Union {
-  padding-right: 10px;
+  padding-right: 25px;
   color: blue;
 }
 

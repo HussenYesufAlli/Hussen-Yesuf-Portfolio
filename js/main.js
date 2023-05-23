@@ -1,4 +1,4 @@
-const menuBtn = document.querySelector('button');
+const menuBtn = document.querySelector('.btn-humburger');
 const menu = document.querySelector('.main-nav-mobile');
 const closeBtn = document.querySelector('.close-btn-menu');
 const menuItems = document.querySelectorAll('#menu-list li a');
