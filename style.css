@@ -69,7 +69,7 @@ main {
 }
 
 .header-mobile {
-  padding: 40px;
+  padding: 20px;
   display: flex;
   width: 90%;
   align-items: center;
@@ -77,12 +77,16 @@ main {
   padding-right: 0;
 }
 
+.close-btn-menu {
+  padding: 10px;
+}
+
 .main-nav-mobile ul {
-  padding: 40px;
+  padding-left: 10px;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
 }
 
 /* The hamburgur three bars */
