@@ -40,7 +40,7 @@ main {
 
 /* My Logo */
 .logo {
-  padding-left: 10px;
+  padding-left: 25px;
   animation: 3s linear 1s infinite running slidein;
 }
 
@@ -74,25 +74,30 @@ main {
   width: 90%;
   align-items: center;
   justify-content: end;
-  padding-right: 10px;
+  padding-right: 0;
+}
+
+.close-btn-menu {
+  padding: 10px;
 }
 
 .main-nav-mobile ul {
-  padding: 40px;
+  padding-left: 10px;
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
 }
 
-/* Three dash-setting */
+/* The hamburgur three bars */
 .icon-Union {
-  padding-right: 10px;
+  padding-right: 30px;
   color: blue;
 }
 
 .btn-humburger {
   border: white;
+  background-color: white;
 }
 
 /* The headline section bg-shapes */

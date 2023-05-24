@@ -1,19 +1,19 @@
-const menuBtn = document.querySelector('button');
-const menu = document.querySelector('.main-nav-mobile');
-const closeBtn = document.querySelector('.close-btn-menu');
+const menuButton = document.querySelector('.btn-humburger');
+const mobileMenu = document.querySelector('.main-nav-mobile');
+const closeButton = document.querySelector('.close-btn-menu');
 const menuItems = document.querySelectorAll('#menu-list li a');
 
 const openMenu = () => {
-  menu.classList.add('open-nav-links');
+  mobileMenu.classList.add('open-nav-links');
 };
 
-menuBtn.addEventListener('click', () => openMenu());
-closeBtn.addEventListener('click', () => {
-  menu.classList.remove('open-nav-links');
+menuButton.addEventListener('click', () => openMenu());
+closeButton.addEventListener('click', () => {
+  mobileMenu.classList.remove('open-nav-links');
 });
 
 menuItems.forEach((item) => {
   item.addEventListener('click', () => {
-    menu.classList.remove('open-nav-links');
+    mobileMenu.classList.remove('open-nav-links');
   });
 });
