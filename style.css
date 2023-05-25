@@ -40,7 +40,7 @@ main {
 
 /* My Logo */
 .logo {
-  padding-left: 10px;
+  padding-left: 25px;
   animation: 3s linear 1s infinite running slidein;
 }
 
