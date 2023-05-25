@@ -61,7 +61,15 @@ const projectDatas = [
     proj_portfolio: "img/work-img/Snapshoot-Portfolio-4.png",
     proj_desc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap", "Ruby", "Boostrap"],
+    proj_technology: [
+      "html",
+      "css",
+      "javaScript",
+      "Ruby",
+      "Boostrap",
+      "Ruby",
+      "Boostrap",
+    ],
     proj_list: ["Back End Dev", "2015"],
     live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
     source_code:
@@ -116,8 +124,6 @@ viewProjectDetailButton.forEach((buttons, index) => {
             <li>${projectDatas[index].proj_technology[0]}</li>
             <li>${projectDatas[index].proj_technology[1]}</li>
             <li>${projectDatas[index].proj_technology[2]}</li>
-            <li>${projectDatas[index].proj_technology[3]}</li>
-            <li>${projectDatas[index].proj_technology[4]}</li>
            </ul>
           <ul class="tag-list2">
             <li>${projectDatas[index].proj_technology[3]}</li>
