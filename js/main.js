@@ -25,7 +25,7 @@ const projectDatas = [
     proj_portfolio: "img/work-img/Snapshoot-Portfolio.png",
     proj_desc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript"],
+    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
     proj_list: ["Back End Dev", "2015"],
     live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
     source_code:
@@ -37,7 +37,7 @@ const projectDatas = [
     proj_portfolio: "img/work-img/Snapshoot-Portfolio-2.png",
     proj_desc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript"],
+    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
     proj_list: ["Back End Dev", "2015"],
     live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
     source_code:
@@ -49,7 +49,7 @@ const projectDatas = [
     proj_portfolio: "img/work-img/Snapshoot-Portfolio-3.png",
     proj_desc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript"],
+    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
     proj_list: ["Back End Dev", "2015"],
     live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
     source_code:
@@ -61,58 +61,13 @@ const projectDatas = [
     proj_portfolio: "img/work-img/Snapshoot-Portfolio-4.png",
     proj_desc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript"],
+    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap", "Ruby", "Boostrap"],
     proj_list: ["Back End Dev", "2015"],
     live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
     source_code:
       "https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git",
   },
 ];
-
-// const workContent = document.getElementById("work");
-// const div = document.createElement("div");
-// div.className = "work-section";
-// workContent.appendChild(div);
-// div.innerHTML = projectDatas.reduce(
-//   (output, proj) =>
-//     `${output}
-//             <div class="work-container">
-//             <div class="cards">
-//             <div class="snapshot-portofolio">
-//               <img src=${proj.proj_portfolio} alt="SP" />
-//             </div>
-//             <div class="blocks">
-//               <h2 class="project-title txtWrapper">${proj.proj_name}</h2>
-//               <div class="tframes">
-//                 <h3>${proj.proj_title}</h3>
-//                 <ol class="frames-list">
-//                   <li>
-//                     <img src="img/work-img/Counter.png" />
-//                   </li>
-//                   <li> ${proj.proj_list[0]}</li>
-//                   <li>
-//                     <img src="img/work-img/Counter.png" />
-//                   </li>
-//                   <li>${proj.proj_list[1]}</li>
-//                 </ol>
-//               </div>
-//               <p class="project-text txtWrapper">
-//                 ${proj.proj_desc}
-//               </p>
-//               <ul class="tag-list">
-//                 <li>${proj.proj_technology[0]}</li>
-//                 <li>${proj.proj_technology[1]}</li>
-//                 <li>${proj.proj_technology[2]}</li>
-//               </ul>
-//               <div class="blocks-buttonWrapper">
-//                 <button class="blocks-button">See Project</button>
-//               </div>
-//             </div>
-//           </div>
-//           </div>
-//           `,
-//   ""
-// );
 
 const reverseCard = document.querySelectorAll(".cards");
 reverseCard.forEach((rev, index) => {
@@ -161,6 +116,12 @@ viewProjectDetailButton.forEach((buttons, index) => {
             <li>${projectDatas[index].proj_technology[0]}</li>
             <li>${projectDatas[index].proj_technology[1]}</li>
             <li>${projectDatas[index].proj_technology[2]}</li>
+            <li>${projectDatas[index].proj_technology[3]}</li>
+            <li>${projectDatas[index].proj_technology[4]}</li>
+           </ul>
+          <ul class="tag-list2">
+            <li>${projectDatas[index].proj_technology[3]}</li>
+            <li>${projectDatas[index].proj_technology[4]}</li>
            </ul>
         <div class="project-detail-button">
           <div class="blocks-buttonWrapper modal-link-button">
