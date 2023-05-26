@@ -185,3 +185,21 @@ viewProjectDetailButton.forEach((buttons, index) => {
     });
   });
 });
+
+// Client side validation /Contact form  section
+
+const cForm = document.getElementById('contactForm');
+const eMail = document.getElementById('email');
+const errorMessage = document.getElementById('errormessage');
+
+cForm.addEventListener('submit', (event) => {
+  errorMessage.textContent = '';
+  if (eMail.value.toLowerCase() !== eMail.value) {
+    event.preventDefault();
+    const mesg = document.createTextNode(
+      'Please type your email in lowercase. Form not submitted',
+    );
+    errorMessage.appendChild(mesg);
+    errorMessage.style.color = 'red';
+  }
+});
