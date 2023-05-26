@@ -197,7 +197,7 @@ cForm.addEventListener('submit', (event) => {
   if (eMail.value.toLowerCase() !== eMail.value) {
     event.preventDefault();
     const mesg = document.createTextNode(
-      'please type your email in lowercase. form not submitted',
+      'Please type your email in lowercase. Form not submitted',
     );
     errorMessage.appendChild(mesg);
     errorMessage.style.color = 'red';
