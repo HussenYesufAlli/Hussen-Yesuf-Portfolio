@@ -205,20 +205,20 @@ cForm.addEventListener("submit", (event) => {
 });
 
 // preserve data in the browser / use local storage to save user input
-const formName = document.getElementById('name');
-const formMessage = document.getElementById('msg');
-const contactEmail = document.getElementById('email');
+const formName = document.getElementById("name");
+const formMessage = document.getElementById("msgtext");
+const contactEmail = document.getElementById("email");
 
-contactForm.addEventListener('input', () => {
+contactForm.addEventListener("input", () => {
   const formData = {
     name: formName.value,
     email: contactEmail.value,
     message: formMessage.value,
   };
-  localStorage.setItem('contactForm', JSON.stringify(formData));
+  localStorage.setItem("contactForm", JSON.stringify(formData));
 });
 function showData() {
-  const userData = JSON.parse(localStorage.getItem('contactForm'));
+  const userData = JSON.parse(localStorage.getItem("contactForm"));
   if (userData) {
     formName.value = userData.name;
     contactEmail.value = userData.email;
