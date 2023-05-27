@@ -1,77 +1,77 @@
-const menuButton = document.querySelector(".btn-humburger");
-const mobileMenu = document.querySelector(".main-nav-mobile");
-const closeButton = document.querySelector(".close-btn-menu");
-const menuItems = document.querySelectorAll("#menu-list li a");
+const menuButton = document.querySelector('.btn-humburger');
+const mobileMenu = document.querySelector('.main-nav-mobile');
+const closeButton = document.querySelector('.close-btn-menu');
+const menuItems = document.querySelectorAll('#menu-list li a');
 
 const openMenu = () => {
-  mobileMenu.classList.add("open-nav-links");
+  mobileMenu.classList.add('open-nav-links');
 };
 
-menuButton.addEventListener("click", () => openMenu());
-closeButton.addEventListener("click", () => {
-  mobileMenu.classList.remove("open-nav-links");
+menuButton.addEventListener('click', () => openMenu());
+closeButton.addEventListener('click', () => {
+  mobileMenu.classList.remove('open-nav-links');
 });
 
 menuItems.forEach((item) => {
-  item.addEventListener("click", () => {
-    mobileMenu.classList.remove("open-nav-links");
+  item.addEventListener('click', () => {
+    mobileMenu.classList.remove('open-nav-links');
   });
 });
 
 const projectDatas = [
   {
-    proj_name: "Tonix",
-    proj_title: "CANOPY",
-    proj_portfolio: "img/work-img/Snapshoot-Portfolio.png",
+    proj_name: 'Tonix',
+    proj_title: 'CANOPY',
+    proj_portfolio: 'img/work-img/Snapshoot-Portfolio.png',
     proj_desc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
-    proj_list: ["Back End Dev", "2015"],
-    live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    proj_technology: ['html', 'css', 'javaScript', 'Ruby', 'Boostrap'],
+    proj_list: ['Back End Dev', '2015'],
+    live_demo: 'https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/',
     source_code:
-      "https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git",
+      'https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git',
   },
   {
-    proj_name: "Multi-Post Stories",
-    proj_title: "CANOPY",
-    proj_portfolio: "img/work-img/Snapshoot-Portfolio-2.png",
+    proj_name: 'Multi-Post Stories',
+    proj_title: 'CANOPY',
+    proj_portfolio: 'img/work-img/Snapshoot-Portfolio-2.png',
     proj_desc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
-    proj_list: ["Back End Dev", "2015"],
-    live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    proj_technology: ['html', 'css', 'javaScript', 'Ruby', 'Boostrap'],
+    proj_list: ['Back End Dev', '2015'],
+    live_demo: 'https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/',
     source_code:
-      "https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git",
+      'https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git',
   },
   {
-    proj_name: "Tonix",
-    proj_title: "CANOPY",
-    proj_portfolio: "img/work-img/Snapshoot-Portfolio-3.png",
+    proj_name: 'Tonix',
+    proj_title: 'CANOPY',
+    proj_portfolio: 'img/work-img/Snapshoot-Portfolio-3.png',
     proj_desc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
-    proj_list: ["Back End Dev", "2015"],
-    live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    proj_technology: ['html', 'css', 'javaScript', 'Ruby', 'Boostrap'],
+    proj_list: ['Back End Dev', '2015'],
+    live_demo: 'https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/',
     source_code:
-      "https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git",
+      'https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git',
   },
   {
-    proj_name: "Multi-Post Stories",
-    proj_title: "CANOPY",
-    proj_portfolio: "img/work-img/Snapshoot-Portfolio-4.png",
+    proj_name: 'Multi-Post Stories',
+    proj_title: 'CANOPY',
+    proj_portfolio: 'img/work-img/Snapshoot-Portfolio-4.png',
     proj_desc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    proj_technology: ["html", "css", "javaScript", "Ruby", "Boostrap"],
-    proj_list: ["Back End Dev", "2015"],
-    live_demo: "https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    proj_technology: ['html', 'css', 'javaScript', 'Ruby', 'Boostrap'],
+    proj_list: ['Back End Dev', '2015'],
+    live_demo: 'https://hussenyesufalli.github.io/Hussen-Yesuf-Portfolio/',
     source_code:
-      "https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git",
+      'https://github.com/HussenYesufAlli/Hussen-Yesuf-Portfolio.git',
   },
 ];
 
-const workContent = document.getElementById("work");
-const div = document.createElement("div");
-div.className = "work-section";
+const workContent = document.getElementById('work');
+const div = document.createElement('div');
+div.className = 'work-section';
 workContent.appendChild(div);
 div.innerHTML = projectDatas.reduce(
   (output, proj) => `${output}
@@ -110,24 +110,24 @@ div.innerHTML = projectDatas.reduce(
           </div>
           </div>
           `,
-  ""
+  '',
 );
 
-const reverseCard = document.querySelectorAll(".cards");
+const reverseCard = document.querySelectorAll('.cards');
 reverseCard.forEach((rev, index) => {
   if (index % 2 !== 0) {
-    rev.classList.toggle("reverse-block");
+    rev.classList.toggle('reverse-block');
   }
 });
 
-const modalContent = document.getElementById("modal");
-const modalDiv = document.createElement("div");
-modalDiv.className = "modal-section";
+const modalContent = document.getElementById('modal');
+const modalDiv = document.createElement('div');
+modalDiv.className = 'modal-section';
 modalContent.appendChild(modalDiv);
-const modal = document.querySelector(".modal-section");
-const viewProjectDetailButton = document.querySelectorAll(".blocks-button");
+const modal = document.querySelector('.modal-section');
+const viewProjectDetailButton = document.querySelectorAll('.blocks-button');
 viewProjectDetailButton.forEach((buttons, index) => {
-  buttons.addEventListener("click", () => {
+  buttons.addEventListener('click', () => {
     modalDiv.innerHTML = `
               
     <div class="modalContainer">
@@ -178,50 +178,51 @@ viewProjectDetailButton.forEach((buttons, index) => {
 
     `;
 
-    modal.classList.add("openModal");
-    const modalCloseButton = document.querySelector(".close-modal-button img");
-    modalCloseButton.addEventListener("click", () => {
-      modal.classList.remove("openModal");
+    modal.classList.add('openModal');
+    const modalCloseButton = document.querySelector('.close-modal-button img');
+    modalCloseButton.addEventListener('click', () => {
+      modal.classList.remove('openModal');
     });
   });
 });
 
 // Client side validation /Contact form  section
 
-const cForm = document.getElementById("contactForm");
-const eMail = document.getElementById("email");
-const errorMessage = document.getElementById("errormessage");
+const cForm = document.getElementById('contactForm');
+const eMail = document.getElementById('email');
+const errorMessage = document.getElementById('errormessage');
 
-cForm.addEventListener("submit", (event) => {
-  errorMessage.textContent = "";
+cForm.addEventListener('submit', (event) => {
+  errorMessage.textContent = '';
   if (eMail.value.toLowerCase() !== eMail.value) {
     event.preventDefault();
     const mesg = document.createTextNode(
-      "Please type your email in lowercase. Form not submitted"
+      'Please type your email in lowercase. Form not submitted',
     );
     errorMessage.appendChild(mesg);
-    errorMessage.style.color = "red";
+    errorMessage.style.color = 'red';
   }
 });
 
 // preserve data in the browser / use local storage to save user input
-const formName = document.getElementById("name");
-const formMessage = document.getElementById("msgtext");
-const contactEmail = document.getElementById("email");
+const contactForm = document.getElementById('contactForm');
+const formMessage = document.getElementById('msgtext');
+const formEmail = document.getElementById('email');
+const formName = document.getElementById('name');
 
-contactForm.addEventListener("input", () => {
+contactForm.addEventListener('input', () => {
   const formData = {
     name: formName.value,
-    email: contactEmail.value,
+    email: formEmail.value,
     message: formMessage.value,
   };
-  localStorage.setItem("contactForm", JSON.stringify(formData));
+  localStorage.setItem('contactForm', JSON.stringify(formData));
 });
 function showData() {
-  const userData = JSON.parse(localStorage.getItem("contactForm"));
+  const userData = JSON.parse(localStorage.getItem('contactForm'));
   if (userData) {
     formName.value = userData.name;
-    contactEmail.value = userData.email;
+    formEmail.value = userData.email;
     formMessage.value = userData.message;
   }
 }
