@@ -203,3 +203,27 @@ cForm.addEventListener('submit', (event) => {
     errorMessage.style.color = 'red';
   }
 });
+
+// preserve data in the browser / use local storage to save user input
+const contactForm = document.getElementById('contactForm');
+const formMessage = document.getElementById('msgtext');
+const formEmail = document.getElementById('email');
+const formName = document.getElementById('name');
+
+contactForm.addEventListener('input', () => {
+  const formData = {
+    name: formName.value,
+    email: formEmail.value,
+    message: formMessage.value,
+  };
+  localStorage.setItem('contactForm', JSON.stringify(formData));
+});
+function showData() {
+  const userData = JSON.parse(localStorage.getItem('contactForm'));
+  if (userData) {
+    formName.value = userData.name;
+    formEmail.value = userData.email;
+    formMessage.value = userData.message;
+  }
+}
+showData();
